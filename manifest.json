@@ -1,6 +1,6 @@
 {
-  "short_name": "Georg David Ritterbusch",
-  "name": "Portfolio of Georg David Ritterbusch as a React PWA",
+  "short_name": "G. D. Ritterbusch",
+  "name": "Georg David Ritterbusch",
   "icons": [
     {
       "src": "favicon.ico",
@@ -22,5 +22,5 @@
   "theme_color": "#4ecca3",
   "background_color": "#424242",
   "display": "standalone",
-  "description": "Portfolio of Georg David Ritterbusch as a React PWA"
+  "description": "Portfolio of Georg David Ritterbusch"
 }
