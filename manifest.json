@@ -19,8 +19,8 @@
     }
   ],
   "start_url": "https://gdritterbu.github.io/portfolio/",
+  "theme_color": "#4ecca3",
+  "background_color": "#424242",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff",
-  "description": "Test"
+  "description": "Portfolio of Georg David Ritterbusch as a React PWA"
 }
