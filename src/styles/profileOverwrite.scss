@@ -1,0 +1,65 @@
+.rc-vertical-timeline:before {
+    width: 2px;
+    background: #c7c7c7;
+}
+
+.rc-vertical-timeline-element-content{
+    box-shadow: 0px 3px 3px -2px rgba(0,0,0,0.2), 0px 3px 4px 0px rgba(0,0,0,0.14), 0px 1px 8px 0px rgba(0,0,0,0.12);
+    font-family: acumin-pro, sans-serif;
+}
+
+.rc-vertical-timeline-element-icon{
+    box-shadow: 0px 3px 3px -2px rgba(0,0,0,0.2), 0px 3px 4px 0px rgba(0,0,0,0.14), 0px 1px 8px 0px rgba(0,0,0,0.12);
+    border: 2px solid #c7c7c7;
+}
+
+.rc-vertical-timeline.rc-vertical-timeline--two-columns:before {
+    margin-left: 1px;
+}
+
+@media only screen and (min-width: 1170px){
+    .rc-vertical-timeline.rc-vertical-timeline--two-columns:before {
+        margin-left: -1px;
+    }
+}
+
+
+.rc-vertical-timeline-element-content-arrow {
+    margin-right: -1px;
+}
+
+@media only screen and (min-width: 1170px){
+    .rc-vertical-timeline--two-columns .rc-vertical-timeline-element-content-arrow {
+        margin-left: -1px;
+    }
+}
+
+.rc-vertical-timeline-element-inner{
+    text-align: left;
+}
+
+@media only screen and (min-width: 1170px){
+    .rc-vertical-timeline-element-date{
+        font-weight: bold !important;
+    }
+
+    .rc-vertical-timeline--two-columns .rc-vertical-timeline-element-content .rc-vertical-timeline-element-date {
+        color: #FFFFFF;
+        text-align: left;
+    }
+
+    .rc-vertical-timeline--two-columns .rc-vertical-timeline-element.rc-vertical-timeline-element--right .rc-vertical-timeline-element-content .rc-vertical-timeline-element-date, .rc-vertical-timeline--two-columns .rc-vertical-timeline-element:nth-child(2n):not(.rc-vertical-timeline-element--left) .rc-vertical-timeline-element-content .rc-vertical-timeline-element-date {
+        left: auto;
+        right: 124%;
+        text-align: right;
+    }
+}
+
+.rc-vertical-timeline {
+    width: 94%;
+}
+
+p { hyphens: auto; }
+
+
+

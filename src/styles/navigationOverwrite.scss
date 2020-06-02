@@ -1,0 +1,32 @@
+@media screen and (max-height: 588px){
+    .MuiTabs-flexContainerVertical{
+        position: absolute;
+        top: 0;
+    }
+    .MuiButtonBase-root{
+        padding: 5vh 12px !important;
+    }
+}
+
+@media screen and (min-height: 588px){
+    .MuiTabs-flexContainerVertical{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-70%);
+    }
+    .MuiButtonBase-root{
+        padding: 30px 12px !important;
+    }
+}
+
+.MuiTab-root{
+    min-width: 60px !important;
+}
+
+.react-swipeable-view-container > div{
+        overflow-x: hidden !important;
+}
+
+.MuiBox-root{
+    padding: 0 !important;
+}

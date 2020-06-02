@@ -1,0 +1,129 @@
+video {
+    // min-width: 100vw;
+    // min-height: 560px;
+    // position: absolute;
+    // left: 50%;
+    // transform: translate3d(-50%,0,0);
+    // overflow-y: hidden !important;
+    z-index: -100;
+    margin: 0 auto;
+    min-height: inherit;
+}
+
+.video-container{
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+}
+
+.home-wrapper{
+    display: flex !important;
+}
+
+.background-image-container{
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+}
+
+
+@media screen and (max-width: 767px){
+    .background-image-container{
+        display: block;
+    }
+    .video-container{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 767px){
+    .background-image-container{
+        display: none;
+    }
+    .video-container{
+        display: block;
+    }
+}
+
+.home-header-wrapper{
+    z-index: 100;
+    margin: auto;
+    margin-top: 20vh;
+}
+
+@media screen and (max-height: 450px){
+    .home-header-wrapper{
+        margin-top: 3%;
+        vertical-align: middle;
+    }
+}
+
+@media screen and (min-height: 450px){
+    .home-header-wrapper{
+        margin-top: 20vh;
+    }
+}
+
+
+@media screen and (max-width: 767px){
+    .home-header-wrapper{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .home-header-wrapper{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+.home-headline{
+    h1{
+        font-family: trumpgothicpro, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: #ffffff;
+        letter-spacing: 2px;
+        font-size: 3rem;
+        margin: 0;
+    }
+    @media screen and (min-width: 767px){
+        .sub-headline{
+            width: 400px;
+        }
+        h1, p{
+            text-align: left;
+        }
+        .seperator{
+            margin: 1.875rem auto 1.875rem 0;
+        }
+    }
+    @media screen and (max-width: 767px){
+        .sub-headline{
+            width: 100%;
+        }
+        h1, p{
+            text-align: left;
+        }
+        .seperator{
+            margin: 1.875rem auto 1.875rem 0;
+        }
+    }
+    p{
+        font-family: acumin-pro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #ffffff;
+    }
+
+    .seperator{
+        width: 50px;
+        height: 2px;
+        background-color: #4ecca3;
+        //background-color: #f50057;
+    }
+}
