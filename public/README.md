@@ -6,7 +6,7 @@ Visit this site: [gdritterbu.github.io/portfolio](https://gdritterbu.github.io/p
 
 Developed by Georg David Ritterbusch using React.
 
-![Preview](/src/assets/preview.png)
+![Preview](/images/preview.png)
 
 ## Sections
 
