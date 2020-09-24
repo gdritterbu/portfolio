@@ -15,14 +15,39 @@ export default function Profile() {
         <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#fff'}}
-            date="9/2017 - present"
+            date="10/2020 - present"
+            iconStyle={{ background: '#404040', color: '#4ecca3' }}
+            icon={<SchoolIcon />}
+        >
+            <h3 className="vertical-timeline-element-title">Master of Science in Wirtschafts&shy;informatik &amp; Digitale Transformation</h3>
+            <h4 className="vertical-timeline-element-subtitle">University of Potsdam, Germany</h4>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="7/2020 - present"
+            iconStyle={{ background: '#404040', color: '#4ecca3' }}
+            icon={<WorkIcon />}
+        >
+            <h3 className="vertical-timeline-element-title">Working Student for Development of Supply Chain Planning Tool</h3>
+            <h4 className="vertical-timeline-element-subtitle">Mucos Emulsionsgesellschaft mbH, Germany</h4>
+            <p>
+            Development of a tool for supply chain planning for pharmaceutical bulk production.
+            </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: '#fff'}}
+            date="9/2017 - 8/2020"
             iconStyle={{ background: '#404040', color: '#4ecca3' }}
             icon={<SchoolIcon />}
         >
             <h3 className="vertical-timeline-element-title">Bachelor of Science in Business &amp; Information Systems Engineering BISE (Wirtschafts&shy;informatik)</h3>
             <h4 className="vertical-timeline-element-subtitle">Brandenburg University of Applied Sciences, Germany</h4>
             <p>
-            Currently writing the bachelor thesis with the topic “visualization of a data warehouse using virtual reality”, passed all 30 lectures with ⌀1,7 (German grade system)
+            Bachelor thesis with the topic “Visualization of data warehouse data using Web-VR technologies” graded with a 1.2
+            </p>
+            <p>
+            Final grade: ⌀1.6 (German grade system)
             </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement

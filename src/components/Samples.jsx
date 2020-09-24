@@ -24,6 +24,7 @@ import StockRatingOverview from '../assets/stockrating_overview.gif'
 import StockRatingSearch from '../assets/stockrating_search.gif'
 import AFrame from '../assets/aframe.png'
 import AFrameDocs from '../assets/aframe_docs.png'
+import VrTool from '../assets/vr-tool.gif'
 import PortfolioHome from '../assets/portfolio_home.png'
 import PortfolioSkills from '../assets/portfolio_skills.png'
 
@@ -82,6 +83,7 @@ export default function FullScreenDialog() {
         <Grid container
         direction="row"
         justify="center" spacing={6}>
+          {/*
           <Grid item xs={12} className="section-wrapper">
             <div className="title sample-title">
                 CURRENT PROJECTS
@@ -102,13 +104,26 @@ export default function FullScreenDialog() {
                 </Grid>
             </Grid>
           </Grid>
+          */}
           
           <Grid item xs={12} className="section-wrapper">
             <div className="title sample-title">
-              PAST PROJECTS
+            {/*PAST */}PROJECTS
             </div>
             <div className="seperator sample-seperator"></div>
             <Grid container spacing={3}>
+                <Grid item xs={12} sm={6}>
+                <div className="sample-wrapper" onClick={handleClickOpen1}>
+                  <div>
+                    <img className="samples-preview" src={VRImage}/>
+                  </div>
+                  <div className="sample-subtitle">
+                    <div className="sample-subtitle-wrapper">
+                      DWH Visualization
+                    </div>
+                  </div>
+                </div>
+                </Grid>
               <Grid item xs={12} sm={6}>
                 <div className="sample-wrapper" onClick={handleClickOpen2}>
                   <div>
@@ -165,10 +180,10 @@ export default function FullScreenDialog() {
         justify="center" spacing={6} className="dialog-content-wrapper dialog-text">
           <Grid item xs={12} justify="center" className="dialog-gif-wrapper">
             <p>
-            In view of my Bachelor's degree, I am currently working on my Bachelor's thesis. This is being done together with my fellow student Long Hoang Ngyuen. The goal of this project is the <i><b>visualization of a data warehouse</b></i> using the Virtual Reality technology. The data should not only be displayed, but should also become more accessible for the user. Therefore the user should have the possibility to use different operators, for example those of an OLAP-Cube. The user should be able to navigate through the various data and their data types in order to gain in-depth knowledge of the data more quickly. There are no limits in creativity at this point. Various ways of presentation and their usability are to be examined here. 
+            My Bachelor Thesis was dedicated to the topic <i><b>“Visualization of data warehouse data using Web-VR technologies”</b></i>. This was being done together with my fellow student Long Hoang Ngyuen. For that purpose we have developed our own tool for the visualization of data warehouse data. 
             <br/>
             <br/>
-            The technical development will be done using the JavaScript based web framework A-Frame and a PHP environment. A-Frame is a framework for building Virtual Reality (VR) experiences.
+            The data is not only be displayed, but is also more accessible for the user. The user has the possibility to navigate through the various data and their data types in order to gain in-depth knowledge of the data more quickly. The technical development was done using the JavaScript based web framework A-Frame and a PHP environment. A-Frame is a framework for building Virtual Reality (VR) experiences.
             </p>
           </Grid>
         </Grid>
@@ -180,7 +195,7 @@ export default function FullScreenDialog() {
             <img className="dialog-img" src={AFrame}/>
           </Grid>
           <Grid item xs={12} sm={6} justify="center" className="dialog-gif-wrapper">
-            <img className="dialog-img" src={AFrameDocs}/>
+            <img className="dialog-img" src={VrTool}/>
           </Grid>
         </Grid>
       </Dialog>
